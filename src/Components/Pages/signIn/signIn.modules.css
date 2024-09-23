@@ -1,0 +1,65 @@
+.container {
+  max-width: 1440px;
+}
+
+.signinForm {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.signinForm input[type="text"],
+.signinForm input[type="password"],
+.signinForm input[type="Name"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.signinForm button {
+  width: 370px;
+  height: 56px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #db4444;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signinForm button.googleBtn {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signinForm button.googleBtn img {
+  margin-right: 10px;
+}
+
+.signinForm .Login-link {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.signinForm .Login-link span {
+  font-weight: bold;
+}
+
+.signinForm .Login-link:hover {
+  text-decoration: underline;
+}
