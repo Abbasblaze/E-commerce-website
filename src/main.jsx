@@ -10,18 +10,31 @@ import {
 import "./index.css";
 import Login from "./Components/Pages/Login/Login";
 import SignIn from "./Components/Pages/signIn/signIn";
+import Home from "./Components/Home/Home";
+import HomePage from "./Components/Pages/homePage/homePage";
 
 
 
 const router = createBrowserRouter([
   {
-    path: "/login",
-    element: <Login />,
+    path: "/",
+    element: <Home/>,
   },
   {
     path: "/signIn",
     element: <SignIn/>,
   },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/homePage",
+    element: <HomePage/>,
+  },
+
+
+
 
 ]);
 
