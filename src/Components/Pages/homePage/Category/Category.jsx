@@ -5,7 +5,7 @@ function Category() {
     <>
       <div className="categories">
         <h1>Categories</h1>
-        <h3>Browse By Category</h3>
+        <h3>Best Selling Products</h3>
 
         <div className="Categorie-cards">
           <div className="phones">

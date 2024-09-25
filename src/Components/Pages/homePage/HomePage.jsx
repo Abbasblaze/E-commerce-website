@@ -1,4 +1,5 @@
 
+import BestSelling from "./BestSelling/BestSelling";
 import Category from "./Category/Category";
 import FlashSale from "./flashSale/flashSale";
 import Navigation from "./Navigation/Navigation";
@@ -13,6 +14,7 @@ function HomePage() {
         <Navigation/>
         <Products/>
         <Category/>
+        <BestSelling/>
         </>
      );
 }
