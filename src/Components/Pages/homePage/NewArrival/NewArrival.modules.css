@@ -1,0 +1,112 @@
+.NewArrival {
+  max-width: 1440px;
+  margin: 80px auto;
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.NewArrival h1 {
+  font-size: 16px;
+  color: #db4444;
+  border-left: 20px solid #db4444;
+  border-radius: 5px;
+}
+
+.NewArrival h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.NewArrivalcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.item {
+  background-color: white;
+  width: 570px;
+  height: 600px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+  background-image: url("src/assets/ps5-slim-goedkope-playstation_large 1.png"); /* replace with actual image url */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.item-two {
+  background-color: white;
+  width: 570px;
+  height: 284px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+  background-image: url("src/assets/attractive-woman-wearing-hat-posing-black-background 1.png"); /* replace with actual image url */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.item-three {
+  background-color: white;
+  width: 270px;
+  height: 284px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+
+  background-image: url("src/assets/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png"); /* replace with actual image url */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.item-four {
+  background-color: white;
+  width: 270px;
+  height: 284px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+  background-image: url("src/assets/Frame 706.png"); /* replace with actual image url */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.large {
+  grid-column: span 2;
+}
+
+.item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.shop-btn {
+  text-decoration: underline;
+  padding: 10px 20px;
+
+  color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+}

@@ -13,5 +13,16 @@
 
 .MoreProducts h3 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.product-card .new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00ff66;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
 }
