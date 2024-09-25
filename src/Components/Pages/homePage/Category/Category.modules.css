@@ -1,9 +1,7 @@
 .categories {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 70px auto;
   padding: 20px;
-  padding-bottom: 70px;
-  border-bottom: 1px solid #888;
 }
 
 .categories h1 {

@@ -1,6 +1,6 @@
 .BestSelling {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 70px auto;
   padding: 20px;
   padding-bottom: 70px;
   border-bottom: 1px solid #888;
@@ -46,4 +46,8 @@ button {
 
 .view-all-btn:hover {
   background-color: #b93d41;
+}
+
+.product-card h3 {
+  font-size: 16px;
 }
