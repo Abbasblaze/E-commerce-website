@@ -1,0 +1,133 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 135px;
+}
+
+.searchLogo {
+  position: relative;
+  right: 40px;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.top-nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-cart input {
+  width: 243px;
+  height: 38px;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+}
+
+.icons .icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 350px;
+  border-right: 1px solid #ddd;
+  margin-left: 100px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  padding: 10px;
+}
+
+.banner {
+  background-color: #000;
+  color: white;
+  width: 892px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+
+.banner-content h2 {
+  font-size: 48px;
+  margin-left: 64px;
+}
+
+.shopNowBtn a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  border-radius: 5px;
+  margin-left: 67px;
+  margin-bottom: 20px;
+}
+
+.textLogo {
+  font-size: 16px;
+  display: flex;
+  gap: 14.5px;
+  margin-left: 64px;
+  margin-top: 58px;
+}
+
+.ri-arrow-right-fill {
+  margin-left: 5px;
+}
+
+.bannerImg {
+  position: absolute;
+  right: 350px;
+  top: 150px;
+}
+
+.banner-indicators {
+  display: flex;
+  gap: 10px;
+  margin-left: 353px;
+  margin-bottom: 11px;
+  z-index: 1;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.dot.active {
+  opacity: 1;
+}
