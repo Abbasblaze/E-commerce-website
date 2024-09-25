@@ -1,0 +1,46 @@
+.features {
+  max-width: 1440px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item {
+  text-align: center;
+
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 30%;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+}
+
+.icon img {
+  width: 50%;
+}
+
+.feature-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #666;
+}
