@@ -4,14 +4,11 @@ function Products() {
     return ( 
         <>
         <div className="Productscontainer">
-            <div className="ProductsHeading">
+     
             <h1>Today</h1>
  
-            </div>
-            <div className="LRIcons">
-        <i className="ri-arrow-left-fill left"></i>
-        <i className="ri-arrow-right-fill right"></i>
-        </div>
+          
+
        
     
         <div className="countdown">
