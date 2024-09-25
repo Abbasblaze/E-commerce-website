@@ -6,11 +6,7 @@ function Products() {
         <div className="Productscontainer">
      
             <h1>Today</h1>
- 
-          
 
-       
-    
         <div className="countdown">
             <div>
             <p>Days</p>

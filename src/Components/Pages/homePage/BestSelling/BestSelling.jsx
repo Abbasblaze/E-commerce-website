@@ -7,7 +7,7 @@ function BestSelling() {
 
         <h1>This Month</h1>
         <div className="horizantol">
-        <h3>Browse By Category</h3>
+        <h3>Best Selling Products  </h3>
         <button className="view-all">View All</button>
         </div>
 

@@ -1,0 +1,17 @@
+.MoreProductsContainer {
+  max-width: 1440px;
+  margin: 71px auto;
+}
+
+.MoreProducts h1 {
+  font-size: 16px;
+  color: #db4444;
+  border-left: 20px solid #db4444;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+
+.MoreProducts h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}

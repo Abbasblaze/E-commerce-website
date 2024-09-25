@@ -3,6 +3,7 @@ import Ad from "./Ad/Ad";
 import BestSelling from "./BestSelling/BestSelling";
 import Category from "./Category/Category";
 import FlashSale from "./flashSale/flashSale";
+import MoreProducts from "./MoreProducts/MoreProducts";
 import Navigation from "./Navigation/Navigation";
 import Products from "./Products/Products";
 
@@ -17,6 +18,7 @@ function HomePage() {
         <Category/>
         <BestSelling/>
         <Ad/>
+        <MoreProducts/>
         </>
      );
 }

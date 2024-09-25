@@ -1,9 +1,69 @@
 .Adcontainer {
-  max-width: 1440px;
-  margin: 140px auto;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #000000;
+  border-radius: 12px;
+  max-width: 1170px;
+  height: 500px;
+  margin: auto;
+  background-image: url("src/assets/Frame 694.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.adimg {
-  margin-left: 120px;
+.adHeading {
+  color: white;
+}
+
+.adHeading h1 {
+  color: #00ff66;
+  font-size: 16px;
+  margin-bottom: 69px;
+}
+
+.adHeading h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.Numbers {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.NumberCard {
+  text-align: center;
+}
+
+.NumberCard h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.NumberCard p {
+  font-size: 12px;
+}
+
+.BuyNow {
+  width: 171px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ff66;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.BuyNow:hover {
+  background-color: #00ff66;
 }
