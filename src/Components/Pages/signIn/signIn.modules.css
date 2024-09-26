@@ -1,5 +1,8 @@
-.container {
+.SignIn {
+  display: flex;
   max-width: 1440px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .signinForm {
@@ -7,6 +10,22 @@
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
+}
+
+.form-section {
+  margin: 200px auto;
+}
+
+.form-section h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #777;
 }
 
 .signinForm input[type="text"],
@@ -22,44 +41,70 @@
   box-sizing: border-box;
 }
 
-.signinForm button {
-  width: 370px;
-  height: 56px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
-  background-color: #db4444;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+.createNewbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
 }
 
-.signinForm button.googleBtn {
+.createNewbtn .button {
+  background-color: #db4444;
+  color: white;
+  border: none;
+  padding: 18px 56px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.createNewbtn .button:hover {
+  background-color: #c0392b;
+}
+
+.createNewbtn .googleBtn {
   background-color: #ffffff;
   color: #000;
   border: 1px solid #ddd;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.signinForm button.googleBtn img {
-  margin-right: 10px;
-}
-
-.signinForm .Login-link {
-  display: block;
-  text-align: center;
+  padding: 15px 20px;
+  width: 375px;
+  height: 56px;
   font-size: 16px;
-  margin-top: 10px;
-  color: #000000;
+  cursor: pointer;
+}
+
+.createNewbtn .googleBtn img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.googleBtn:hover {
+  background-color: #f2f2f2;
+}
+
+.Login-link {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
   text-decoration: none;
 }
 
-.signinForm .Login-link span {
+.Login-link span {
+  color: black;
   font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-.signinForm .Login-link:hover {
-  text-decoration: underline;
+.Login-link span:hover {
+  color: #333;
 }

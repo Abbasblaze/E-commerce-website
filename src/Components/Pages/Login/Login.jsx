@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Login() {
     return ( 
         <>
-        <div className="container">
+        <div className="Login">
         <div className="image-section">
             <img src="src/assets/LoginCard.png" alt="Shopping Cart and Mobile"/>
         </div>
@@ -14,10 +14,14 @@ function Login() {
             <div className="form">
                 <input type="text" placeholder="Email or Phone Number" required/>
                 <input type="password" placeholder="Password" required/>
+                <div className="btnforLogin">
                 <button >Log In</button>
                 <a href="#" className="forgot-password">Forget Password?</a>
-                <Link to="/signIn" className="signIn-link">Create Account ? <span>SignIn</span></Link>
                 </div>
+          
+             
+                </div>
+                <Link to="/signIn" className="signIn-link">Create Account ? <span>SignIn</span></Link>
         </div>
     </div>
         </>
