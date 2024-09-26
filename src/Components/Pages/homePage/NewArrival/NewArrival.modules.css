@@ -12,10 +12,15 @@
   border-radius: 5px;
 }
 
-.NewArrival h3 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+.NewArrival h2 {
+  display: f;
+  font-size: 24px;
+  color: #fff;
+}
+
+.NewArrival p {
+  font-size: 14px;
+  color: #fff;
 }
 
 .NewArrivalcontainer {
@@ -28,35 +33,32 @@
 }
 
 .item {
-  background-color: white;
   width: 570px;
   height: 600px;
   border-radius: 8px;
   text-align: center;
   background-color: #000;
   position: relative;
-  background-image: url("src/assets/ps5-slim-goedkope-playstation_large 1.png"); /* replace with actual image url */
+  background-image: url("src/assets/ps5-slim-goedkope-playstation_large 1.png");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .item-two {
-  background-color: white;
   width: 570px;
   height: 284px;
   border-radius: 8px;
   text-align: center;
   background-color: #000;
   position: relative;
-  background-image: url("src/assets/attractive-woman-wearing-hat-posing-black-background 1.png"); /* replace with actual image url */
+  background-image: url("src/assets/attractive-woman-wearing-hat-posing-black-background 1.png");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .item-three {
-  background-color: white;
   width: 270px;
   height: 284px;
   border-radius: 8px;
@@ -64,21 +66,20 @@
   background-color: #000;
   position: relative;
 
-  background-image: url("src/assets/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png"); /* replace with actual image url */
+  background-image: url("src/assets/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .item-four {
-  background-color: white;
   width: 270px;
   height: 284px;
   border-radius: 8px;
   text-align: center;
   background-color: #000;
   position: relative;
-  background-image: url("src/assets/Frame 706.png"); /* replace with actual image url */
+  background-image: url("src/assets/Frame 706.png");
   background-size: cover;
   background-position: center;
   color: white;

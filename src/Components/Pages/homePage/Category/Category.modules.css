@@ -31,6 +31,7 @@
 
 .Categorie-cards .Camera-red {
   background-color: #db4444;
+  color: #fff;
 }
 
 .Categorie-cards > div {
@@ -56,7 +57,8 @@
 }
 
 .Categorie-cards h2 {
-  font-size: 1.2em;
+  font-size: 16px;
+  font-weight: 300;
   margin: 0;
   text-transform: capitalize;
 }
